@@ -1,5 +1,5 @@
 const Avatar = ({ imgUrl }) => {
-  return <div className={`aspect-square h-full bg-[url("${imgUrl}")] bg-contain rounded-full`}></div>;
+  return <div style={{ backgroundImage: `url(${imgUrl})` }} className="aspect-square h-full bg-contain rounded-full"></div>;
 };
 
 export default Avatar;
