@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-accent: #52bd6c;
+  --color-dark: #000;
+  --color-foreground: #08160c;
+  --color-light: #fff;
+  --color-gray: #f2f3f2;
+
+  --font-saira: "Saira", sans-serif;
+}
+
+@custom-variant aria-asc (&[aria-sort="ascending"]);
+
+body {
+  @apply font-saira bg-foreground text-light;
+}
+
+option {
+  @apply text-dark;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+  display: none;
+}
+
+.range-slider {
+  @apply w-48 h-1 rounded-full appearance-none bg-white;
+
+  background-image: linear-gradient(to right, var(--color-accent) var(--range-progress), white 0%);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.range-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 0.9rem;
+  width: 0.9rem;
+  background-color: var(--color-accent);
+  border-radius: 9999px;
+  cursor: pointer;
+}
+
+.range-slider::-moz-range-thumb {
+  height: 0.9rem;
+  width: 0.9rem;
+  background-color: var(--color-accent);
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
+}

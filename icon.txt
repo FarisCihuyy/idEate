@@ -1,0 +1,25 @@
+<Icon icon="bitcoin-icons:home-outline" width="24" height="24" />
+
+<Icon icon="solar:heart-outline" width="24" height="24" />
+
+<Icon icon="solar:bag-3-outline" width="24" height="24" />
+
+<Icon icon="lsicon:setting-outline" width="16" height="16" />
+
+<Icon icon="garden:smile-slight-stroke-16" width="16" height="16" />
+
+<Icon icon="material-symbols-light:info-outline" width="24" height="24" />
+
+<Icon icon="eva:plus-outline" width="24" height="24" />
+
+<Icon icon="solar:bell-outline" width="24" height="24" />
+
+<Icon icon="weui:location-outlined" width="24" height="24" />
+
+<Icon icon="mynaui:search" width="24" height="24" />
+
+<Icon icon="uiw:down" width="20" height="20" />
+
+<Icon icon="lineicons:cart-2" width="24" height="24" />
+
+<Icon icon="solar:logout-3-outline" width="24" height="24" />
